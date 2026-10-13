@@ -2,6 +2,8 @@ package com.smacx.user_management.service;
 
 import com.smacx.user_management.entity.User;
 import com.smacx.user_management.repository.UserRepository;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
